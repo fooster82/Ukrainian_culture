@@ -1,0 +1,69 @@
+h1 {
+    text-align: left;
+    margin: 1rem;
+}
+div {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav a {
+    cursor: default;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--hd-green);
+    position: sticky;
+    height: var(--hd-height);
+    width: 100%;
+}
+
+.navbutton {
+    background-color: var(--bg-cyan);
+    border-color: var(--hd-green);
+    border-radius: 0.7em;
+    border-width: 3px;
+    text-align: center;
+    margin: 0.5rem;
+    box-shadow: -2px 3px 2px 1px var(--bg-darkcyan);
+    height: 2.5em;
+    width: 90px;
+}
+
+.navbutton:hover {
+    cursor: pointer;
+    background-color: rgba(var(--active-btn), 0.75);
+}
+
+.isactive {
+    background-color: rgb(var(--active-btn));
+    font-weight: bold;
+}
+
+.headerimage {
+    width: var(--hd-height);
+    height: var(--hd-height);
+}
+
+.card-space {
+    margin: 10px;
+   
+}
+
+h3 {
+    margin: 10px;
+}
+
+p {
+    margin:10px;
+}
