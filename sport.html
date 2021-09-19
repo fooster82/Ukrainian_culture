@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sport</title>
+    <link rel="shortcut icon" href="Ukrainian_Flag.png" type="image/x-icon">
+    <title>Sport - Ukrainian Culture</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
 
@@ -23,22 +24,21 @@
         }
       }
     </style>
-
-    </head>
-  <body>
-    
-    <header class="d-flex flex-row justify-content-start">
-        <nav class="navbar navbar-expand sticky-top">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/100px-Flag_of_Ukraine.svg.png" alt="Flag_of_Ukraine">
-            <div class="navbar-brand flex-fill p-3">
-                <h1>Ukrainian Culture</h1>
-            </div>
-            <div class="navbar">
-                <a class="nav-item" href="./index.html"><button class="nav-link">Home</button></a>
-                <a class="nav-item" href="./food.html"><button class="nav-link">Food</button></a>
-                <a class="nav-item" href="./art.html"><button class="nav-link active">Art</button></a>
-                <a class="nav-item" href="./sport.html"><button class="nav-link">Sport</button></a>
-            </div>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header class="custom-navbar sticky-top">
+        <figure class="navbar-image">
+            <img id="nav-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/100px-Flag_of_Ukraine.svg.png" alt="Flag_of_Ukraine">
+        </figure>
+        <div class="navbar-heading">
+            <h1>Ukrainian Culture</h1>
+        </div>
+        <nav class="navbar-buttons">
+            <a href="./index.html"><button class="top-navbutton">Home</button></a>
+            <a href="./food.html"><button class="top-navbutton">Food</button></a>
+            <a href="./art.html"><button class="bottom-navbutton">Art</button></a>
+            <a href="./sport.html"><button class="bottom-navbutton is-active">Sport</button></a>
         </nav>
     </header>
     
@@ -106,5 +106,5 @@
             </div>
         </div>
     </main>
-  </body>
+</body>
 </html>
